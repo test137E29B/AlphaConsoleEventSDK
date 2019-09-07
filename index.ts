@@ -1,4 +1,8 @@
+// ? VSCode File folding
+// #region Imports
+import IGoalScoredEvent from './Schema/AlphaConsoleEvent/GoalScoredEvent';
 import EPlatform from './Schema/RocketLeague/Platform';
+// #endregion
 
 /**
  * * Export all declarations for convenience of
@@ -12,5 +16,6 @@ import EPlatform from './Schema/RocketLeague/Platform';
  * * will lower the overall module size by not importing unused declarations
  */
 export {
+  IGoalScoredEvent,
   EPlatform
 };
