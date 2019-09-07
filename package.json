@@ -1,0 +1,14 @@
+{
+  "name": "alphaconsoleeventsdk",
+  "version": "0.0.1",
+  "description": "SDK for AlphaConsoleEventServer Plugins. Use this for all type information / plugin Development",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "test137e29b",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.6.2"
+  }
+}
