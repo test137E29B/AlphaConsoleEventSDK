@@ -12,6 +12,6 @@ enum EPlatform {
 export default EPlatform;
 
 // ? [Usage] With Treeshaking:
-// ?           import { EPlatform } from 'AlphaConsoleEventSDK';
+// ?   import { EPlatform } from '@alphaconsole/alphaconsole-event-sdk';
 // ? [Usage] Without Treeshaking:
-// ?           import EPlatform from 'AlphaConsoleEventSDK/Schema/RocketLeague/EPlatform';
+// ?   import EPlatform from '@alphaconsole/alphaconsole-event-sdk/Schema/RocketLeague/EPlatform';

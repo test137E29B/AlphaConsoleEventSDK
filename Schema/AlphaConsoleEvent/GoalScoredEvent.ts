@@ -8,6 +8,6 @@ export default interface IGoalScoredEvent {
 }
 
 // ? [Usage] With Treeshaking:
-// ?           import { IGoalScoredEvent } from 'AlphaConsoleEventSDK';
+// ?   import { IGoalScoredEvent } from '@alphaconsole/alphaconsole-event-sdk';
 // ? [Usage] Without Treeshaking:
-// ?           import IGoalScoredEvent from 'AlphaConsoleEventSDK/Schema/AlphaConsoleEvent/IGoalScoredEvent';
+// ?   import IGoalScoredEvent from '@alphaconsole/alphaconsole-event-sdk/Schema/AlphaConsoleEvent/IGoalScoredEvent';

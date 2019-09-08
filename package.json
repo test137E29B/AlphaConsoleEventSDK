@@ -1,13 +1,21 @@
 {
-  "name": "alphaconsole-event-sdk",
-  "version": "0.0.1",
+  "name": "@alphaconsole/alphaconsole-event-sdk",
+  "version": "1.0.1",
   "description": "SDK for AlphaConsoleEventServer Plugins. Use this for all type information / plugin Development",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/test137E29B/AlphaConsoleEventSDK.git"
+  },
   "author": "test137e29b",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/test137E29B/AlphaConsoleEventSDK/issues"
+  },
+  "homepage": "https://github.com/test137E29B/AlphaConsoleEventSDK#readme",
   "dependencies": {
     "tslint": "^5.19.0",
     "tslint-config-airbnb": "^5.11.1",
