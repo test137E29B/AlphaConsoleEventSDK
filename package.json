@@ -1,6 +1,6 @@
 {
   "name": "@alphaconsole/alphaconsole-event-sdk",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "SDK for AlphaConsoleEventServer Plugins. Use this for all type information / plugin Development",
   "main": "index.ts",
   "scripts": {
@@ -17,9 +17,11 @@
   },
   "homepage": "https://github.com/test137E29B/AlphaConsoleEventSDK#readme",
   "dependencies": {
+    "typescript": "^3.6.2"
+  },
+  "devDependencies": {
     "tslint": "^5.19.0",
     "tslint-config-airbnb": "^5.11.1",
-    "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.6.2"
+    "tslint-config-prettier": "^1.18.0"
   }
 }

@@ -1,11 +1,12 @@
 import IGoalScoredEvent from "../Schema/AlphaConsoleEvent/GoalScoredEvent";
+import ITradeCompletedEvent from "../Schema/AlphaConsoleEvent/TradeCompletedEvent";
 
 // TODO fix types
 export default class AlphaConsoleEventPlugin {
   constructor(public pluginName: string) {}
 
-  public onGoalScoredEvent(_data: IGoalScoredEvent) {}
-  public onMatchEndEvent(_data: any) {}
+  public onGoalScoredEvent(_data: IGoalScoredEvent) {} // TODO ADD DATA SCHEMA
+  public onTradeCompleted(_data: ITradeCompletedEvent) {} // * Finished * //
 }
 
 // ? [Usage]
